@@ -1,0 +1,85 @@
+#soshibar-logo { 
+    color: blue
+}
+
+nav {
+    color: rgb(21, 255, 0);
+}
+
+.nav a {
+    color: red;
+}
+
+.button__image {
+    color: ;
+}
+
+.button__link {
+    color: rgb(68, 0, 255);
+}
+
+.logo img {
+    size: 0px;
+}
+
+.header-text__heading {
+    color: ;
+}
+
+.header-text__paragraph {
+    color: ;
+}
+
+.button-secondary__image {
+    color: ;
+}
+
+.button-secondary__link {
+    color: ;
+}
+
+.main-heading {
+    color: ;
+}
+
+.main-headin__image {
+    color: ;
+}
+
+.main-headin__text {
+    color: ;
+}
+
+.center-list {
+    color: ;
+}
+
+.center-list__heaing {
+    color: ;
+}
+
+.center-list__paragraph {
+    color: ;
+}
+
+.center-list__paragraph.center-list__paagraph--secondary {
+    color: ;
+}
+
+.center-list__image {
+    color: ;
+}
+.comment__text {
+   color: ; 
+}
+
+.comment__paragraph {
+    color: ;
+}
+
+.comment__button {
+    color: ;
+}
+
+
+
