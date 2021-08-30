@@ -11,7 +11,7 @@ nav {
 }
 
 .button__image {
-    color: ;
+    color: orange;
 }
 
 .button__link {
@@ -23,62 +23,94 @@ nav {
 }
 
 .header-text__heading {
-    color: ;
+    color: blue ;
 }
 
 .header-text__paragraph {
-    color: ;
+    color: red;
 }
 
 .button-secondary__image {
-    color: ;
+    color: orange;
 }
 
 .button-secondary__link {
-    color: ;
+    color: purple;
 }
 
 .main-heading {
-    color: ;
+    color: red ;
 }
 
 .main-headin__image {
-    color: ;
+    color: red;
 }
 
 .main-headin__text {
-    color: ;
+    color: red;
 }
 
 .center-list {
-    color: ;
+    color: red;
 }
 
 .center-list__heaing {
-    color: ;
+    color: red;
 }
 
 .center-list__paragraph {
-    color: ;
+    color: red;
 }
 
 .center-list__paragraph.center-list__paagraph--secondary {
-    color: ;
+    color: red;
 }
 
 .center-list__image {
-    color: ;
+    color: red;
 }
 .comment__text {
-   color: ; 
+   color: red; 
 }
 
 .comment__paragraph {
-    color: ;
+    color: red;
 }
 
 .comment__button {
-    color: ;
+    color: red;
+}
+
+.container-bg-dark {
+    color: blue;
+}
+
+.container-bg-dark__padding {
+    color: rgb(255, 0, 0);
+}
+
+.container-bg-dark__text-top {
+    color: blue;
+}
+
+.container-bg-dark__text-center {
+    color: blueviolet; 
+}
+
+.container-bg-dark__text-dc {
+    color: violet;
+}
+
+.container-bg-dark__link {
+    color: wheat;
+}
+
+.container-bg-light# {
+    color: yellow;
+}
+
+.container-bg-light#__text-lpc {
+    color: yellowgreen;
 }
 
 
