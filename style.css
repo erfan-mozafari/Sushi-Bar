@@ -2,116 +2,106 @@
     color: blue
 }
 
-nav {
-    color: rgb(21, 255, 0);
+.header {
+    background: url(home-banner.jpg);
+    width: 1920px;
+    height: 1080px;
 }
 
-.nav a {
-    color: red;
+.nav {
+    display: block;
+    text-align: right;
+    margin-right: 540px;
+    margin-left: 800px;
 }
 
-.button__image {
-    color: orange;
+ul li {
+    display: inline;
+    padding: 20px;
+    text-align: right;
+    font-family: 'Myriad Pro', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.button__link {
-    color: rgb(68, 0, 255);
+ul li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 18px;
 }
 
-.logo img {
-    size: 0px;
-}
-
-.header-text__heading {
-    color: blue ;
-}
-
-.header-text__paragraph {
-    color: red;
-}
-
-.button-secondary__image {
-    color: orange;
-}
-
-.button-secondary__link {
-    color: purple;
-}
-
-.main-heading {
-    color: red ;
-}
-
-.main-headin__image {
-    color: red;
-}
-
-.main-headin__text {
-    color: red;
-}
-
-.center-list {
-    color: red;
-}
-
-.center-list__heaing {
-    color: red;
-}
-
-.center-list__paragraph {
-    color: red;
-}
-
-.center-list__paragraph.center-list__paagraph--secondary {
-    color: red;
-}
-
-.center-list__image {
-    color: red;
-}
-.comment__text {
-   color: red; 
-}
-
-.comment__paragraph {
-    color: red;
-}
-
-.comment__button {
-    color: red;
-}
-
-.container-bg-dark {
-    color: blue;
-}
-
-.container-bg-dark__padding {
+.menu__link.menu__link--active {
     color: rgb(255, 0, 0);
 }
 
-.container-bg-dark__text-top {
-    color: blue;
+.button {
+    text-align: right;
+    top: 20px;
+    display: block;
+    margin-right: 400px;
+    margin-top: 0px;
 }
 
-.container-bg-dark__text-center {
-    color: blueviolet; 
-}
-
-.container-bg-dark__text-dc {
-    color: violet;
-}
-
-.container-bg-dark__link {
-    color: wheat;
-}
-
-.container-bg-light# {
-    color: yellow;
-}
-
-.container-bg-light#__text-lpc {
-    color: yellowgreen;
+.button__link {  
+    padding: 20px;
+    background-color: rgb(255, 0, 0);
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+.container-bg-light#__padding {
+    color: thistle;
+}
+
+.container-bg-light {
+    color: brown;
+}
+
+.container-bg-light__section {
+    color: cyan;
+}
+
+.container-bg-light__text-lpc {
+    color: darkolivegreen;
+}
+
+
+.samaneh {
+    display: inline-block;
+    background-color: chartreuse;
+    padding: 30px;
+    margin: 30px;
+}
+
+.erfan {
+    background-color: cadetblue;
+    color: #fff;
+    padding: 10px;
+    border: 5px solid red;
+    margin: 20px;
+}
