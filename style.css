@@ -28,7 +28,11 @@ ul li a {
     font-size: 18px;
 }
 
-.menu__link.menu__link--active {
+ul li a:hover {
+    color:rgb(255, 0, 0);
+}
+
+.menu__link.active {
     color: rgb(255, 0, 0);
 }
 
@@ -71,30 +75,6 @@ div h1 {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-}
 
 .container-bg-light#__padding {
     color: thistle;
