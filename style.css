@@ -154,28 +154,131 @@ div h1 {
 
 .comment-part {
     display: flex;
-    margin-top: 180px;
-    margin-left:370px
+    margin: auto;
 }
 
-.comment-image {
-
+.comment__image {
+   margin: auto;
+   padding-left: 370px;
+   padding-top: 150px;
 }
 
 .comment__text {
     font-size: 40px;
+    padding-left: 270px;
+    padding-top: 260px;
+    
 }
 
 .commment__paragraph {
     font-size: 16px;
     color: rgb(158, 158, 160);
     line-height: 25px;
-    margin-left: ;
+    padding-left: 270px;
 }
 
 .comment-part__logo {
+    display: block;
     
 }
+
+.container-bg-dark {
+    background-color: rgb(3, 17, 37);
+    display: block;
+    margin-top: 270px;
+    width: 1920px;
+    height: 546px;
+}
+
+.container-bg-dark__text-top {
+    color: rgb(255, 0, 0);
+    text-align: center;
+    padding-top: 200px;
+    margin: 0px;
+}
+
+.container-bg-dark__text-center {
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 0px;
+}
+
+.container-bg-dark__link {
+    padding: 5px;
+    color: rgb(255, 255, 255);
+    background-color: red;
+    font-size: 16px;
+}
+
+.container-bg-dark__padding {
+    
+}
+
+.container-bg-dark__text-dc {
+    color: white;
+}
+
+.container-bg-dark__padding-text {
+    text-align: center;
+}
+
+.container-blog-light {
+    padding-left: 200px;
+    line-height: 1;
+}
+
+.container-bg-light__text-dc-pr {
+    color: gray;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-left: 50px;
+}
+
+.section-container {
+    display: flex;
+}
+
+.container-bg-light__text-lpc {
+    
+}
+
+.section {
+    margin-top: 200px;
+    padding: 100px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    
+}
+
+.container-bg-light__link {
+    color: white;
+    padding: 10px;
+    background-color: red;
+    margin-top: 50px;
+    margin-left: 150px;
+    display: inline-block;
+}
+
+.container-bg-light__image {
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.container-bg-light {
+    padding: 150px;
+    padding-top: 200px;
+    line-height: 45px;
+}
+
+
+
+
+
+
+
+
+
 
 
 
