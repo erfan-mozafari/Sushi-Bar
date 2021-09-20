@@ -4,20 +4,29 @@
 
 .header {
     display: flex;
+    flex-direction: center;
+    justify-content: space-between;
     position: absolute;
     top: 0;
     z-index: 1;
+    width: 100%;
 }
 
- #soshibar-logo {
-    display: inline;
-    margin-left: 375px;
-    margin-top: 50px;
+.header__page {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 100%;
+    align-items: center;
 }
 
 .menu {
-    margin-top: 90px;
-    margin-left: 245px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+  /*  align-items: center;
+   /* margin-top: 90px;
+   /* margin-left: 245px; */
 }
 
 .nav {
@@ -48,8 +57,8 @@ ul li a:hover {
 }
 
 .button {
-    margin-left: 40px;
-    margin-top: 90px;
+   /* margin-left: 40px;
+    margin-top: 90px; */
 }
 
 .button__link {
@@ -67,14 +76,22 @@ ul li a:hover {
     width: 1920px;
     height: 1080px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center; 
     position: relative;
 
 }
 
-.silder {
-    margin-top: 220px;
-    margin-left: 420px;
+.intro__wraper {
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.content {
+     /* margin-top: 220px;
+    margin-left: 420px; */
 }
 
 .main-logo {
@@ -194,49 +211,105 @@ div h1 {
     margin-top: 0px;
 }
 
-.comment-part {
-    display: flex;
-    margin: auto;
+.price-list.container {
+    margin-bottom: 135px;
 }
 
-.comment__image {
-   margin: auto;
-   padding-left: 370px;
-   padding-top: 150px;
+/*--------------*/
+.comment-part {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    background: url(shape 2.svg)
+    margin: ;
+
+}
+
+
+.comment-part__txt {
+    display: flex;
+    flex-direction: column;
+    margin-left: 270px
+}
+
+.comment-part__logo {
+    margin-bottom: 30px;
 }
 
 .comment__text {
     font-size: 40px;
-    padding-left: 270px;
-    padding-top: 260px;
-    
+    margin-bottom: 50px;
+  /*  padding-left: 270px;
+    padding-top: 260px; */   
 }
 
 .commment__paragraph {
+    margin-bottom: 65px;
     font-size: 16px;
     color: rgb(158, 158, 160);
     line-height: 25px;
-    padding-left: 270px;
+   /* padding-left: 270px;*/
 }
 
-.comment-part__logo {
-    display: block;
-    
+.comment__button {
+    text-decoration: none;
+    font-size: 16px;
+    padding: 20px;
+    background-color: #db3135;
+    color: #ffffff;
 }
+
+.comment__image {
+  
+
+
+}
+
+.comment-pictuer {
+    background: url(home-about-02.jpg);
+    background-position: 644px 2175px;
+    
+
+
+}
+
+.comment__button {
+
+}
+
+/*------------*/
 
 .container-bg-dark {
-    background-color: rgb(3, 17, 37);
+    background-color: rgb(5, 18, 39);
     display: block;
     margin-top: 270px;
     width: 1920px;
     height: 546px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
+.container-bg-dark__bakcground {
+
+}
+
+.container-bg-dark__btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: ;
+}
+
+
+
 .container-bg-dark__text-top {
-    color: rgb(255, 0, 0);
+    color: rgb(219, 49, 53);
     text-align: center;
-    padding-top: 200px;
-    margin: 0px;
+    
+   
 }
 
 .container-bg-dark__text-center {
@@ -247,30 +320,50 @@ div h1 {
 }
 
 .container-bg-dark__link {
-    padding: 5px;
+   /* padding: 5px; */
     color: rgb(255, 255, 255);
-    background-color: red;
+    
+    padding: 18px 30px;
+    background-color: rgb(219, 49, 53);
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 16px;
 }
 
 .container-bg-dark__text-dc {
     color: white;
+    display: inline;
 }
 
 .container-bg-dark__padding-text {
     text-align: center;
 }
+/*--------------------------------*/
+
+.section {
+    display: flex;
+    flex-direction: column;
+}
 
 .container-blog-light {
     padding-left: 200px;
     line-height: 1;
+    margin-bottom: 0px;
 }
 
 .container-bg-light__text-dc-pr {
     color: gray;
     font-size: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    padding-left: 50px;
+   /* padding-left: 50px;*/
+}
+
+.container-bg-light__text-dc {
+
+}
+
+.container-bg-light__text-lpc {
+    margin-bottom: 0px;
 }
 
 .section-container {
@@ -294,14 +387,14 @@ div h1 {
     color: white;
     padding: 10px;
     background-color: red;
-    margin-top: 50px;
-    margin-left: 150px;
-    display: inline-block;
+   /* margin-top: 50px;
+    margin-left: 150px; 
+    display: inline-block; */
 }
 
 .container-bg-light__image {
-    margin-left: 50px;
-    margin-top: 50px;
+ /*   margin-left: 50px;
+    margin-top: 50px; */
 }
 
 .container-bg-light {

@@ -7,54 +7,58 @@
     <body >
         <header class="header">
             <!--Logo of sushi-bar-->
-            <figure>
-                <img id="soshibar-logo" class="logo" src="logo.svg" alt="Header logo">
-            </figure>
-            <!--Menu-->
-            <nav class="menu"  id="">
-                <ul class="nav">
-                    <li class="nav__list-item">
-                        <a class="menu__link active" href="#">Home</a>
-                    </li>
-                    <li class="nav__list-item">
-                        <a class="menu__link" href="#">Menu</a>
-                    </li>
-                    <li class="nav__list-item">
-                        <a class="menu__link" href="#">About</a>
-                    </li>
-                    <li class="nav__item">
-                        <a class="menu__link" href="#">Gallery</a>
-                    </li>
-                    <li class="nav__item">
-                        <a class="menu__link" href="#">Cantact</a>
-                    </li>
-                </ul>
-            </nav>
-            <!--Make Reservation-->
-            <div class="button">
-                <a href="#" class="button__link">Make Reservations</a>
+            <div class="header__page container">
+                <figure>
+                    <img id="soshibar-logo" class="logo" src="logo.svg" alt="Header logo">
+                </figure>
+                <!--Menu-->
+                <nav class="menu"  id="">
+                    <ul class="nav">
+                        <li class="nav__list-item">
+                            <a class="menu__link active" href="#">Home</a>
+                        </li>
+                        <li class="nav__list-item">
+                            <a class="menu__link" href="#">Menu</a>
+                        </li>
+                        <li class="nav__list-item">
+                            <a class="menu__link" href="#">About</a>
+                        </li>
+                        <li class="nav__item">
+                            <a class="menu__link" href="#">Gallery</a>
+                        </li>
+                        <li class="nav__item">
+                            <a class="menu__link" href="#">Cantact</a>
+                        </li>
+                    </ul>
+                </nav>
+                <!--Make Reservation-->
+                <div class="button">
+                    <a href="#" class="button__link">Make Reservations</a>
+                </div>
             </div>
         </header>
         <!--main-->
         <main class="main">
-            <div class="intro">
-                <div class="silder">
-                    <!--Logo of header-->
-                    <figure class="main-logo">
-                        <img src="style.svg" alt="">
-                    </figure>
-                    <!--Main Heading-->
-                    <div class="header-text">
-                        <h1 class="header-text__lpc">Variety Flavours<br>From SushiBar.</h1>
-                        <p class="header-text__paragraph">Book Online or call&nbsp;&nbsp;685-456-6743</p>
-                    </div>
-                    <!--Button See Our Meneu-->
-                    <div class="button-main">
-                        <img class="button__image" src="" alt="">
-                        <a id="button-secondry" class="button__link" href="#">See Our Menu</a>
+            <section class="intro container">
+                <div class="intro__wraper">
+                    <div class="content">
+                        <!--Logo of header-->
+                        <figure class="main-logo">
+                            <img src="style.svg" alt="">
+                        </figure>
+                        <!--Main Heading-->
+                        <div class="header-text">
+                            <h1 class="header-text__lpc">Variety Flavours<br>From SushiBar.</h1>
+                            <p class="header-text__paragraph">Book Online or call&nbsp;&nbsp;685-456-6743</p>
+                        </div>
+                        <!--Button See Our Meneu-->
+                        <div class="button-main">
+                            <img class="button__image" src="" alt="">
+                            <a id="button-secondry" class="button__link" href="#">See Our Menu</a>
+                        </div>
                     </div>
                 </div>
-            </div>
+            </section>
 
 
             <section class="main-heading">
@@ -90,11 +94,15 @@
                     <a class="price-list__button" href="">Book a table</a>
                     <img class="price-list__image" src="home-menu04.jpg" alt="">
                 </div>
-            </section>    
-            <section class="comment-part">
-                    <div class="comment">
-                        <img width="300px" height="200px" class="comment__image" src="gallery07.jpg" alt="">
+            </section>
+            
+            <!--                 -->
+            <section class="comment-part container">
+                    <div class="comment-pictuer">
+                        <img width="430px" height="300px" class="comment__image" src="gallery07.jpg" alt="">
+                        <img src="" alt="">
                     </div>
+                <div class="comment-part__txt">
                     <div>
                         <img class="comment-part__logo" src="style.svg" alt="">
                     </div>
@@ -107,21 +115,27 @@
                     <div>
                         <a class="comment__button" href="#">see our menu</a>
                     </div>
+                </div>
+                <!---------------------------------------------------->
             </section>
-            <section class="container-bg-dark">
-                <div class="container-bg-dark__padding">
-                    <p class="container-bg-dark__text-top">MONDAY-SATURDAY:SERVICE 24:00 pm</p>
+            <section class="container-bg-dark container">
+                <div class="container-bg-dark__bakcground">
+                    <div class="container-bg-dark__padding">
+                        <p class="container-bg-dark__text-top">MONDAY-SATURDAY:SERVICE 24:00 pm</p>
+                    </div>
+                    <div class="container-bg-dark__padding">
+                        <p class="container-bg-dark__text-center">Making a reservation at sushi bar is easy<br> 
+                        &nbsp;&nbsp;&nbsp;and takes just a couple of minutes.
+                        </p>
+                    </div>
                 </div>
-                <div class="container-bg-dark__padding">
-                    <p class="container-bg-dark__text-center">Making a reservation at sushi bar is easy<br> 
-                       &nabla;&nbsp;&nbsp;and takes just a couple of minutes.
-                    </p>
-                </div>
-                <div class="container-bg-dark__padding-text">
-                    <p class="container-bg-dark__text-dc"> or call 685-456-6743</p>
-                </div>
-                <div class="container-bg-dark__padding-text">
-                    <a class="container-bg-dark__link" href="">make reservation</a>
+                <div class="container-bg-dark__btn">
+                    <div class="container-bg-dark__padding-text">
+                        <p class="container-bg-dark__text-dc"> or call 685-456-6743</p>
+                    </div>
+                    <div class="container-bg-dark__padding-text">
+                        <a class="container-bg-dark__link" href="">Make Reservation</a>
+                    </div>
                 </div>
             </section>
             <!--sections-->
