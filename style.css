@@ -290,6 +290,7 @@ div h1 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 180px;
 }
 
 .container-bg-dark__bakcground {
@@ -340,35 +341,94 @@ div h1 {
 }
 /*--------------------------------*/
 
+.section-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
 .section {
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
 }
 
 .container-blog-light {
-    padding-left: 200px;
-    line-height: 1;
-    margin-bottom: 0px;
-}
-
-.container-bg-light__text-dc-pr {
-    color: gray;
-    font-size: 20px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-   /* padding-left: 50px;*/
-}
-
-.container-bg-light__text-dc {
 
 }
 
 .container-bg-light__text-lpc {
-    margin-bottom: 0px;
+    color: #34384c;
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 20px;
 }
 
-.section-container {
-    display: flex;
+.container-bg-light__text-dc {
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #db3135;
+    margin-bottom: 15px;
+    margin-top: 0px;
 }
+
+.container-bg-light__text-dc-pr {
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #57667e;
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+
+.container-bg-light__link {
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+    padding: 20px 45px;
+    background-color: #db3135;
+    margin-bottom: 40px;
+}
+
+.container-bg-light__image {
+   width: 345px;
+   height: 240px;
+   }
+
+.container-blog-light {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.container-bg-light__section {
+    padding-bottom: 20px;
+    border-bottom: 2px dashed #57667e;
+}
+
+.container-bg-light__textheading {
+    font-size: 22px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #34384c;
+}
+
+.container-bg-light__text-dc-text {
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #57667e;
+    margin-top: 0px;
+}
+
+
+
+
+
+
+
+
+
 
 .section-first {
     margin-top: 200px;
@@ -383,25 +443,11 @@ div h1 {
     text-align: center;
 }
 
-.container-bg-light__link {
-    color: white;
-    padding: 10px;
-    background-color: red;
-   /* margin-top: 50px;
-    margin-left: 150px; 
-    display: inline-block; */
-}
 
-.container-bg-light__image {
- /*   margin-left: 50px;
-    margin-top: 50px; */
-}
 
-.container-bg-light {
-    padding: 150px;
-    padding-top: 200px;
-    line-height: 45px;
-}
+
+
+
  
 .container-bg__text-lpc {
     font-size: 40px;
