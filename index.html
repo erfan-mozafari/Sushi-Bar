@@ -39,8 +39,8 @@
         </header>
         <!--main-->
         <main class="main">
-            <section class="intro container">
-                <div class="intro__wraper">
+            <section class="intro container-fluid ">
+                <div class="intro__wraper ">
                     <div class="content">
                         <!--Logo of header-->
                         <figure class="main-logo">
@@ -118,7 +118,7 @@
                 </div>
                 <!---------------------------------------------------->
             </section>
-            <section class="container-bg-dark container">
+            <section class="container-bg-dark container-fluid">
                 <div class="container-bg-dark__bakcground">
                     <div class="container-bg-dark__padding">
                         <p class="container-bg-dark__text-top">MONDAY-SATURDAY:SERVICE 24:00 pm</p>
@@ -131,10 +131,10 @@
                 </div>
                 <div class="container-bg-dark__btn">
                     <div class="container-bg-dark__padding-text">
-                        <p class="container-bg-dark__text-dc"> or call 685-456-6743</p>
+                        <a class="container-bg-dark__link" href="">Make Reservation</a>
                     </div>
                     <div class="container-bg-dark__padding-text">
-                        <a class="container-bg-dark__link" href="">Make Reservation</a>
+                        <p class="container-bg-dark__text-dc"> or call 685-456-6743</p>
                     </div>
                 </div>
             </section>
@@ -208,44 +208,46 @@
                 </div>
             </section>
             <!--section5-->
-            <section class="testimonial container">
-                <div class="testimonial__heading">
-                    <div>
-                        <img class="container-bg__image" src="style.svg" alt="">
-                    </div>
-                    <div>
-                        <h2 class="container-bg__text-lpc">What they say’s<br>
-                            about our delicious Sushi </h2>
-                    </div>
-                </div>
-                <div class="testimonial__wrapper">    
-                    <div class="testimonial__item">
-                        <p class="testimonial__text">Quis ipsum suspendisse ultrices gravida risus commodo 
-                            viverra<br>maecenas accumsan lacus vel facilisis. orem ipsum
-                                dolor itmete<br>consectetur adipiscing elit, sed do eiusmod.
-                        </p>
-                        <div class="testimonial__person">
-                            <div class="testimonial__image-wrapper">
-                                <img class="testimonial__image" src="testimonial-img-01.png" alt="">
-                            </div>
-                            <div class="testimonial__details">
-                                <h5 class="testimonial__name">Lorem, ipsum dolor.</h5>
-                                <div class="testimonial__rating"></div>
-                            </div>
+            <section class="testimonial container-fluid">
+                <div class="testimonial__padding container">
+                    <div class="testimonial__heading">
+                        <div>
+                            <img class="container-bg__image" src="style.svg" alt="">
+                        </div>
+                        <div>
+                            <h2 class="container-bg__text-lpc">What they say’s<br>
+                                about our delicious Sushi </h2>
                         </div>
                     </div>
-                    <div class="testimonial__item">
-                        <p class="testimonial__text">Quis ipsum suspendisse ultrices gravida risus commodo 
-                            viverra<br>maecenas accumsan lacus vel facilisis. orem ipsum
-                                dolor itmete<br>consectetur adipiscing elit, sed do eiusmod.
-                        </p>
-                        <div class="testimonial__person">
-                            <div class="testimonial__image-wrapper">
-                                <img class="testimonial__image" src="testimonial-img-01.png" alt="">
+                    <div class="testimonial__wrapper">    
+                        <div class="testimonial__item">
+                            <p class="testimonial__text">Quis ipsum suspendisse ultrices gravida risus commodo 
+                                viverra<br>maecenas accumsan lacus vel facilisis. orem ipsum
+                                    dolor itmete<br>consectetur adipiscing elit, sed do eiusmod.
+                            </p>
+                            <div class="testimonial__person">
+                                <div class="testimonial__image-wrapper">
+                                    <img class="testimonial__image" src="testimonial-img-01.png" alt="">
+                                </div>
+                                <div class="testimonial__details">
+                                    <h5 class="testimonial__name">Lorem, ipsum dolor.</h5>
+                                    <div class="testimonial__rating"></div>
+                                </div>
                             </div>
-                            <div class="testimonial__details">
-                                <h5 class="testimonial__name">Lorem, ipsum dolor.</h5>
-                                <div class="testimonial__rating"></div>
+                        </div>
+                        <div class="testimonial__item">
+                            <p class="testimonial__text">Quis ipsum suspendisse ultrices gravida risus commodo 
+                                viverra<br>maecenas accumsan lacus vel facilisis. orem ipsum
+                                    dolor itmete<br>consectetur adipiscing elit, sed do eiusmod.
+                            </p>
+                            <div class="testimonial__person">
+                                <div class="testimonial__image-wrapper">
+                                    <img class="testimonial__image" src="testimonial-img-01.png" alt="">
+                                </div>
+                                <div class="testimonial__details">
+                                    <h5 class="testimonial__name">Lorem, ipsum dolor.</h5>
+                                    <div class="testimonial__rating"></div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -285,16 +287,32 @@
                         <p class="reservation-form__text">1.800.456.6743 – contact@sushibarrestaurant.com</p>
                     </div>
                     <div>
-                        <p class="reservation-form__text-form">No Of Person</p>
+                        <form action="">
+                            <select name="" id="" class="reservation-form__text-form">
+                                <option value=""> no of person</option>
+                                <option value=""> no of person 2</option>
+                            </select>
+                        </form>
                     </div>
                     <div>
-                        <p class="reservation-form__text-form">Select Date</p>
+                        <form action="">
+                            <select class="reservation-form__text-form">
+                                <option value="">Select Date</option>
+                            </select>
+                        </form>
                     </div>
                     <div>
-                        <p class="reservation-form__text-form">Select Time</p>
+                        <form action="">
+                            <select class="reservation-form__text-form">
+                                <option value="">Select Time</option>
+                            </select>
+                        </form>
                     </div>
                     <div>
-                        <p class="reservation-form__text-form">Enter Email Address</p>
+                        <form class="reservation-form__text-form">
+                            Enter Email Address 
+                            <input type="text" class="reservation-form__input">
+                        </form>
                     </div>
                     <div>
                         <a class="reservation-form__btn" href=""></a>
@@ -367,71 +385,70 @@
             </section>
         </main>
         <!--Footer-->
-        <footer class="Footer">
-            <!--Image button sushi bar-->
-            <div class="component">
-                <a class="component__link" href="#"><img src="" alt=""></a>
-            <!--paragraph for instagram-->    
-            <div>
-                <p class="component__text-pr"  >FOLLOW US ON @ARTBEESTHEMES</p>
-            </div>
-            <!--Instagram logo-->
-            <div>
-                <img class="" src="" alt="">
+        <footer class="footer container-fluid">  
+            <div class="component-insta">
+                <!--paragraph for instagram-->    
+                <div>
+                    <p class="component-insta__text-pr"  >FOLLOW US ON @ARTBEESTHEMES</p>
+                </div>
+                <!--Instagram logo-->
+                <div>
+                    <img class="component-insta__image" src="" alt="">
+                </div>
             </div>    
-            <!--Images for end of page-->    
-            </div>
-            <figure>
-                <img src="" alt="">
-            </figure>
-            <figure>
-                <img src="" alt="">
-            </figure>
-            <figure>
-                <img src="" alt="">
-            </figure>
-            <figure>
-                <img src="" alt="">
-            </figure>
-            <figure>
-                <img src="" alt="">
-            </figure>
-            <figure>
-                <img src="" alt="">
-            </figure>
-            <figure>
-                <img src="" alt="">
-            </figure>
-            <figure>
-                <img src="" alt="">
-            </figure>
-            <div>
-                <img src="" alt="">
-                <a href=""></a>
-            </div>
-            <div>
-                <p>
-                    <pre style="font-size: 20px;color: white;">329 Queens Street, Melborn  /  +390 59 223 912  /  Hello@Shshibar.com <br>
-           Monday-Saturday:Service 09:00-24:00 PM</pre>
-                </p>
-            </div>
-            <!--Sochal media list-->
-            <div>
-                <ul id="Sochal media">
-                    <li>
-                        <a href=""><img src="" alt="Face Book"></a>
-                    </li>
-                    <li>
-                        <a id="twitter-image" href=""><img src="" alt="twitter"></a>
-                    </li>
-                    <li>
-                        <a href=""><img src="" alt="">Instagram</a>
-                    </li>
-                    <li>
-                        <a href=""><img src="" alt=""></a>
-                    </li>
-                </ul>
-            </div>
+                <!--Images for end of page-->    
+                <div class="insta-image container-fluid">
+                    <figure class="insta-image__figure">
+                        <img src="C:\Users\3\Desktop\sushi-bar\insta-img-01.jpg" alt="">
+                    </figure>
+                    <figure class="insta-image__figure">
+                        <img src="C:\Users\3\Desktop\sushi-bar\insta-img-02.jpg" alt="">
+                    </figure>
+                    <figure class="insta-image__figure">
+                        <img src="C:\Users\3\Desktop\sushi-bar\insta-img-03.jpg" alt="">
+                    </figure>
+                    <figure class="insta-image__figure">
+                        <img src="C:\Users\3\Desktop\sushi-bar\insta-img-04.jpg" alt="">
+                    </figure>
+                    <figure class="insta-image__figure">
+                        <img src="C:\Users\3\Desktop\sushi-bar\insta-img-05.jpg" alt="">
+                    </figure>
+                    <figure class="insta-image__figure">
+                        <img src="C:\Users\3\Desktop\sushi-bar\insta-img-06.jpg" alt="">
+                    </figure>
+                    <figure class="insta-image__figure">
+                        <img src="C:\Users\3\Desktop\sushi-bar\insta-img-07.jpg" alt="">
+                    </figure>
+                    <figure class="insta-image__figure">
+                        <img src="C:\Users\3\Desktop\sushi-bar\insta-img-08.jpg" alt="">
+                    </figure>
+                </div>
+                <div class="footer__logo">
+                    <a href=""><img src="logo.svg" alt=""></a>
+                </div>
+                <div class="footer__text">
+                    <p class="footer__paragraph">
+                        329 Queens Street, Melbourne&nbsp;|&nbsp;+390 59 223 912&nbsp;|&nbsp;hello@sushibar.com<br>
+                        Monday – Saturday : Service  09.00 - 24:00 PM
+                    </p>
+                </div>
+                <!--Sochal media list-->
+                <div>
+                    <ul class="component-Sochalmedia">
+                        <li class="component-Sochalmedia__link">
+                            <a href=""><img src="" alt=""></a>
+                        </li>
+                        <li class="component-Sochalmedia__link-active">
+                            <a href=""><img src="" alt=""></a>
+                        </li>
+                        <li class="component-Sochalmedia__link">
+                            <a href=""><img src="" alt=""></a>
+                        </li>
+                        <li class="component-Sochalmedia__link">
+                            <a href=""><img src="" alt=""></a>
+                        </li>
+                    </ul>
+                </div>
         </footer>
     </body>
 </html>
