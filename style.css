@@ -21,9 +21,10 @@
 .header__page {
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: space-between;
     width: 100%;
     align-items: center;
+ 
 }
 
 .menu {
@@ -68,12 +69,22 @@ ul li a:hover {
 }
 
 .button__link {
-    padding: 20px;  
-    background-color: rgb(255, 0, 0);
+    padding: 17px 30px;  
+    background-color: #db3135;
     text-decoration: none;
-    color: white;
+    color: #ffffff;
     font-size: 15px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.button__link-header {
+    padding: 20px 30px;
+    background-color: #db3135;
+    text-decoration: none;
+    font-size: 15px;
+    color: #ffffff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
 }
 
 .intro {
@@ -93,7 +104,8 @@ ul li a:hover {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center; 
+    align-items: flex-start;
+    width: 1100px; 
 }
 
 .content {
@@ -159,21 +171,22 @@ div h1 {
 }
 
 .price-list__title {
-    padding: 50px
-    font-size: 30px;
+    color: #34384c;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: black;
+    font-size: 30px;
+    padding: 50px
 }
 
 .price-list__text {
     font-size: 16px;
-    color: rgb(162, 161, 161);
+    color: #57667e;
 }
 
 .price-list__price {
+    font-weight: bolder;
     font-size: 30px;
-    color: red;
-    font: 500;
+    color: #db3135;
+    
 }
 
 .price-list__button {
@@ -185,10 +198,10 @@ div h1 {
     font: bold;
     background-color: rgb(255, 255, 255);
     text-decoration: none;
-    color: rgb(255, 0, 0);
+    color: #db3135;
     font-size: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    border: 1px solid rgb(255, 0, 0);
+    border: 1px solid #db3135;
     border-radius: 20px;
 }
 
@@ -207,7 +220,7 @@ div h1 {
 .price-list__item {
     text-align: center;
     border-radius: 20px;
-    border: 1px solid rgb(253, 204, 204);
+    border: 1px solid #fbeaea;
     margin: 0 15px;
     height: 500px;
 }
@@ -280,7 +293,8 @@ div h1 {
 }
 
 .comment__button {
-
+    padding: 18px 35px;
+    background-color: #db3135;
 }
 
 /*------------*/
@@ -410,19 +424,22 @@ div h1 {
 
 .container-bg-light__section {
     padding-bottom: 20px;
-    border-bottom: 2px dashed #57667e;
+    border-bottom: 2px dashed #e1e6eb;
+    border-width: 1px;
+
 }
 
 .container-bg-light__textheading {
     font-size: 22px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: #34384c;
+    font-weight: ;
 }
 
 .container-bg-light__text-dc-text {
     font-size: 16px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: #57667e;
+    color: #798598;
     margin-top: 0px;
 }
 /* testimontal */
@@ -433,6 +450,8 @@ div h1 {
 }
 
 .testimonial {
+    border-top: solid 35px #fafdfe;
+    border-bottom: solid 325px #fafdfe;
     margin-top: 330px;
     background: url(testimonial-style.png);
     background-repeat: no-repeat;
@@ -441,11 +460,19 @@ div h1 {
     margin-bottom: 220px;
 }
 
-.testimonial__padding {
+.testimonial__bg {
     
 }
 
+.testimonial__padding {
+    padding-top: 150px;
+}
+
 .testimonial__heading {
+    padding-top: 115px; 
+    background: url(reservation-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -487,6 +514,9 @@ div h1 {
     margin-left: 20px;
 }
 
+.testimonial__rating {
+    content: '\f762';
+}
 /*reservation*/
 
 .reservation {
@@ -656,6 +686,35 @@ div h1 {
 
 .insta-image__figure {
     margin: 0;
+}
+
+.reservation-form__btn {
+    color: #ffffff;
+    padding: 19px 146px;
+    background-color: #db3135;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+}
+
+.reservation-form__btn-div {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.reservation-form__text-form-email {
+    width: 380px;
+    height: 35px;
+    border-radius: 5px;
+    border: solid #fbeaea;
+    border-width: 1px;
+    color: #aeb4ba;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
 }
 
 
